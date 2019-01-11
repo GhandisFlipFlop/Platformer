@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class Door : MonoBehaviour {
 
     public string sceneToLoad;
+    public Score scoreObject;
 
     //unity calls this function when something collides with player
     private void OnCollisionEnter2D(Collision2D collision)
@@ -19,6 +20,9 @@ public class Door : MonoBehaviour {
         if (playerScript != null)
         {
             //we DID hit the player
+
+            scoreObject.SaveScore();
+
             //GO TO NEXT LEVEL
             SceneManager.LoadScene(sceneToLoad);
         }
