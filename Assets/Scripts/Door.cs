@@ -9,6 +9,7 @@ public class Door : MonoBehaviour {
 
     public string sceneToLoad;
     public Score scoreObject;
+    public int scoreNeeded = 0;
 
     //unity calls this function when something collides with player
     private void OnCollisionEnter2D(Collision2D collision)
@@ -17,7 +18,7 @@ public class Door : MonoBehaviour {
         Player playerScript = collision.collider.GetComponent<Player>();
 
         //only do something if the thing we ran into has a player script
-        if (playerScript != null)
+        if (playerScript != null && scoreObject.GetScore() >= scoreNeeded)
         {
             //we DID hit the player
 

@@ -50,4 +50,9 @@ public class Score : MonoBehaviour {
         PlayerPrefs.SetInt("score", numericalScore);
     }
 
+    public int GetScore()
+    {
+        return numericalScore;
+    }
+
 }
