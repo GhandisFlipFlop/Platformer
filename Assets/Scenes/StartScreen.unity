@@ -582,15 +582,15 @@ RectTransform:
   m_GameObject: {fileID: 1394002699}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2375001, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 988076229}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12.6, y: 20.4}
-  m_SizeDelta: {x: 313.64, y: 21.48}
+  m_AnchoredPosition: {x: 1.13, y: 12.4}
+  m_SizeDelta: {x: 335.83, y: 21.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1394002701
 MonoBehaviour:
@@ -624,7 +624,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: THE ADVENTURES OF OOF AND PINKMAN
+  m_Text: THE ADVENTURES OF OOF AND NEMESIS-MEGA
 --- !u!222 &1394002702
 CanvasRenderer:
   m_ObjectHideFlags: 0
