@@ -6,11 +6,11 @@ public class Coin : MonoBehaviour {
 
     public Score scoreObject;
     public int coinValue;
-    
 
+    public AudioSource audioObject;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start ()
     {
 		
 	}
@@ -33,6 +33,9 @@ public class Coin : MonoBehaviour {
             // We hit the player
             // Add to the score based on our value
             scoreObject.AddScore(coinValue);
+
+            //PLay audio clip on collision
+            audioObject.Play();
 
             // Destroy the gameObject that this script is attached to (the coin)
             Destroy(gameObject);

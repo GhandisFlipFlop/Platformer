@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class Door : MonoBehaviour {
 
     public string sceneToLoad;
+    public string DefeatScreen;
     public Score scoreObject;
     public int scoreNeeded = 0;
 
@@ -26,6 +27,10 @@ public class Door : MonoBehaviour {
 
             //GO TO NEXT LEVEL
             SceneManager.LoadScene(sceneToLoad);
+        }
+        else if (playerScript != null && scoreObject.GetScore() < scoreNeeded)
+        {
+            SceneManager.LoadScene(DefeatScreen);
         }
     }
 
