@@ -7140,7 +7140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: Level 2
   scoreObject: {fileID: 1691256311}
-  scoreNeeded: 1500
+  scoreNeeded: 2800
 --- !u!61 &1514791912
 BoxCollider2D:
   m_ObjectHideFlags: 0
