@@ -747,6 +747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &69337873
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -849,6 +850,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &81232796
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1203,6 +1205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &97156639
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1770,6 +1773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &196166815
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2255,6 +2259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &235079555
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2370,6 +2375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &245441912
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2824,6 +2830,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &340801342
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4138,6 +4145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &459088504
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4654,6 +4662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &511216799
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4859,6 +4868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &522130575
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5313,6 +5323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &559723601
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5867,6 +5878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &574986641
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6334,6 +6346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &658027221
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6449,6 +6462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &663751824
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6664,6 +6678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &692260269
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6779,6 +6794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &696221807
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7007,6 +7023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &701675767
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7926,6 +7943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &839315802
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7980,6 +7998,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 840329310}
+  - component: {fileID: 840329311}
   m_Layer: 0
   m_Name: GemGreenParent
   m_TagString: Untagged
@@ -8045,6 +8064,101 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &840329311
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 840329309}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 61f3cadc7195ef243aca1a97b79cb557, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &847842658
 GameObject:
   m_ObjectHideFlags: 0
@@ -8227,6 +8341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &849672443
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8555,6 +8670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &913344149
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9034,6 +9150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &973398418
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9702,6 +9819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1088703758
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9804,6 +9922,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1091829370
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10158,6 +10277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1106271287
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10712,6 +10832,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1152057293
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12522,6 +12643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1333725673
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12650,6 +12772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1357407749
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12752,6 +12875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1393473366
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14124,6 +14248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1498819150
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14509,6 +14634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1512617907
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14624,6 +14750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1514565551
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14739,6 +14866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1527575905
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15193,6 +15321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1560927576
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15282,7 +15411,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Level 2
-  scoreObject: {fileID: 0}
+  DefeatScreen: DefeatScreen
+  scoreObject: {fileID: 1412094006}
   scoreNeeded: 4500
 --- !u!61 &1586326913
 BoxCollider2D:
@@ -16087,6 +16217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1640024742
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16202,6 +16333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1651809374
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16512,6 +16644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1743985963
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16640,6 +16773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1744657671
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17772,6 +17906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1901341327
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17887,6 +18022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1924996681
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18002,6 +18138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &1949755287
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18443,6 +18580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &2011958274
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18671,6 +18809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &2021915961
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40164,6 +40303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &2066924665
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40392,6 +40532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &2092948715
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40507,6 +40648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1412094006}
   coinValue: 100
+  audioObject: {fileID: 840329311}
 --- !u!212 &2097758864
 SpriteRenderer:
   m_ObjectHideFlags: 0
