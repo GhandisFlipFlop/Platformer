@@ -15058,7 +15058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bce403a3d5ef62428bf9a22926de946, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Level 2
+  sceneToLoad: VictoryScreen
   DefeatScreen: DefeatScreen
   scoreObject: {fileID: 1412094006}
   scoreNeeded: 4500
